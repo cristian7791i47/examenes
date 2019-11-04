@@ -2,9 +2,10 @@ clear , clc
 xu=0;
 xl=2;
 i=1;
-e(i)=10;
+e(i)=0.001;
 
 while(e(i)>0.001)
+
 xr=(xl+xu)/2;
 g_xu=1+3*exp(xu)^xu-xu^4;
 g_xl=1+3*exp(xl)^xl-xl^4;
