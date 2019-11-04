@@ -20,7 +20,7 @@ xu=xr;
 e(i+1)=abs(xl-xr)
 end 
 
-if (gxu*gxr == 0)
+if (g_xu*g_xr == 0)
     xr=xr;
 end
 i=i+1;
