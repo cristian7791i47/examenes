@@ -24,6 +24,6 @@ set(gcf,'color','white')
 plot(ite,e,'color',[1 0 0],'LineWidth',2);
 grid on
 hold on
-plot(ite,x,'color',[0 1 1]'LineWidth',2);
+plot(ite,x,'color',[0 1 1],'LineWidth',2);
 xlabel('Iterations');
 ylabel('Error');
